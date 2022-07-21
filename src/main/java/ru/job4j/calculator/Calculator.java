@@ -35,10 +35,6 @@ public class Calculator {
         int y = x * x + 1;
         return y;
     }
-
-
-
-
     public static void main(String[] args) {
         int result1 = Calculator.func1(100);
         int result3 = result1;
