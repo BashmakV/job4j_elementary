@@ -17,7 +17,7 @@ public class PointTest {
     }
 
     @Test
-    public void when30to20then5dot38() {
+    public void whenMinus30to2Minus2then5dot38() {
         double expected = 5.38;
         int x1 = -3;
         int y1 = 0;
