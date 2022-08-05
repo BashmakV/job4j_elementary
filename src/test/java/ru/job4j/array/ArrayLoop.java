@@ -2,12 +2,12 @@ package ru.job4j.array;
 
 public class ArrayLoop {
     public static void main(String[] args) {
-        int[] number = new int[5];
-        for (int i = 0; i < number.length; i++) {
-            number[i] = i * 2 + 3;
+        int[] numbers = new int[5];
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = i * 2 + 3;
         }
-        for (int i = 0; i < number.length; i++) {
-            System.out.println(number[i]);
+        for (int number : numbers) {
+            System.out.println(number);
         }
     }
 }
